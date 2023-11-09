@@ -1,0 +1,41 @@
+﻿  Observer Pattern.cpp
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.h(8,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.h(8,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.h(8,31): error C2238: unexpected token(s) preceding ';'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.h(11,26): error C2061: syntax error: identifier 'Subject'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(8,1): error C2011: 'Subject': 'class' type redefinition
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.h(7): message : see declaration of 'Subject'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(54,1): error C2011: 'Observer': 'class' type redefinition
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.h(5): message : see declaration of 'Observer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(71,1): error C2504: 'Subject': base class undefined
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(86,1): error C2504: 'Observer': base class undefined
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(90,57): error C2065: 'pMySubject': undeclared identifier
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(101,21): error C2039: 'RegisterObserver': is not a member of 'WeatherDataServer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(70): message : see declaration of 'WeatherDataServer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(102,21): error C2039: 'NotifyObserver': is not a member of 'WeatherDataServer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(70): message : see declaration of 'WeatherDataServer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(104,21): error C2039: 'NotifyObserver': is not a member of 'WeatherDataServer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(70): message : see declaration of 'WeatherDataServer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(106,20): error C2039: 'RemoveSubject': is not a member of 'WeatherDataClient'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(85): message : see declaration of 'WeatherDataClient'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(108,21): error C2039: 'NotifyObserver': is not a member of 'WeatherDataServer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer Pattern.cpp(70): message : see declaration of 'WeatherDataServer'
+  Observer.cpp
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.h(10,14): error C2065: 'Observer': undeclared identifier
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.h(10,23): error C2059: syntax error: '>'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.h(11,30): error C2061: syntax error: identifier 'Observer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.h(16,32): error C2061: syntax error: identifier 'Observer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.h(17,30): error C2061: syntax error: identifier 'Observer'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.cpp(9,33): error C2660: 'Subject::RemoveObserver': function does not take 1 arguments
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.h(17,15): message : see declaration of 'Subject::RemoveObserver'
+  Subject.cpp
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.h(8,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.h(8,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.h(8,31): error C2238: unexpected token(s) preceding ';'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.h(11,26): error C2061: syntax error: identifier 'Subject'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.cpp(9,31): error C2660: 'Observer::SetSubject': function does not take 1 arguments
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Observer.h(11,15): message : see declaration of 'Observer::SetSubject'
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.cpp(14,34): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.cpp(27,34): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\brend\Work\Secure Software\Observer Pattern`\Observer Pattern`\Subject.cpp(37,34): warning C4018: '<=': signed/unsigned mismatch
+  Generating Code...
